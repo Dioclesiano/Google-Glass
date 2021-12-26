@@ -1,0 +1,162 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;1,300&display=swap');
+@font-face {
+    font-family: 'FonteLogo';
+    src: url('../_fonts/bubblegum-sans-regular.otf');
+}
+@font-face {
+    font-family: 'FonteSombra';
+    src: url('../_fonts/computer-font.ttf');
+}
+
+* {
+    margin: 6px 0px;
+    padding: 0px;
+}
+body {
+    background-color: #dddddd;
+    color: rgba(0, 0, 0, 1)
+}
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+/* FORMATAÇÃO DE IMAGENS COM LEGENDA*/
+figure.foto-legenda {
+    border: 8px solid white;
+    box-shadow: 2px 2px 4px black;
+    position: relative;
+}
+/*Definição da dimensões da Foto*/
+figure.foto-legenda{
+    border-top: 1px;
+    border-bottom: 2px
+    
+}
+figure.foto-legenda img {
+    width: 100%;
+    height: 100%;
+}
+/*Definições do Escurecimento da Imagem*/
+figure.foto-legenda figcaption {
+    background-color: rgba(3, 34, 67, 0.4);
+    color: white;
+    font-family: 'FonteSombra';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    padding: 20px;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: 1.5s;
+}
+/*Definições da Exibição Escurecida e Legenda*/
+figure.foto-legenda:hover figcaption {
+    opacity: 1;
+    width: 100%;
+    height: 94%;
+    left: 2px;
+    box-shadow: 1px 1px #73a9d4ce, 2px 2px #73a9d4ce, 4px 4px #73a9d4ce;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+}
+/*FORMAÇÃO DO MENU*/
+nav#menu {
+    display: block;
+}
+/*Definições da Lista do Menu*/
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 4px;
+    left: 614px;
+}
+/*Definições dos Ítens da Lista*/
+nav#menu li {
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 2px;
+    transition: 1s;
+}
+/*Definições dos Efeitos nos Botões de navegação*/
+nav#menu li:hover {
+    background-color: #606060;
+}
+/*Definições dos Links no Menu*/
+nav#menu a {
+    color: #000000;
+    text-decoration: none;
+}
+/*Definições das Sombras nos Botões de Navegação*/
+nav#menu a:hover {
+    color: #ffffff;
+}
+/*Escondendo a Escrita Menu Principal*/
+nav#menu h1 {
+    display: none;
+}
+/*Definições da DIV(que está configurada como o corpo da Página*/
+div#interface {
+    width: 1100px;
+    background-color: #ffffff;
+    margin: 0px auto 0px auto;
+    padding: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5)
+}
+/*Definições do Posicionamento do Ícone (Óculos)*/
+img#icone {
+    position: absolute;
+    left: 1020px;
+    top: 55px;
+}
+/*Definições do Cabeçalho*/
+header#cabecalho {
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+    background: url('../_imagens/glass-logo-peq.jpg') no-repeat 0px 80px
+}
+/*Definições do Título Google Glass no Header*/
+header#cabecalho h1 {
+    font-family: 'FonteLogo';
+    font-size: 30pt;
+    color: #606060;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+/*Definições do Título h2 no Header*/
+header#cabecalho h2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-style: italic;
+    color: #888888;
+    font-size: 15px;
+    padding: 0px;
+    margin-top: 0px;
+}
+/*FORMATAÇÕES DOS CONTEÚDOS*/
+/*Definições da Setion(o lado esquerdo da página)*/
+section#corpo {
+    display: block;
+    width: 500px;
+    float: left;
+    border-right: 1px solid #606060;
+    padding: 20px 30px 20px 20px;
+}
+aside#lateral {
+    display: block;
+    width: 500px;
+    float: right;
+    padding: 20px;
+}
+footer#rodape {
+    clear: both;
+    border-top: 1px solid #606060;
+}
+footer#rodape p {
+    text-align: center;
+}
+footer#rodape a {
+    color: #606060;
+    text-decoration:none;
+}
