@@ -104,7 +104,7 @@ div#interface {
     background-color: #ffffff;
     margin: 0px auto 0px auto;
     padding: 10px;
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5)
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
 }
 /*Definições do Posicionamento do Ícone (Óculos)*/
 img#icone {
@@ -116,7 +116,7 @@ img#icone {
 header#cabecalho {
     border-bottom: 1px #606060 solid;
     height: 150px;
-    background: url('../_imagens/glass-logo-peq.jpg') no-repeat 0px 80px
+    background: url('../_imagens/glass-logo-peq.jpg') no-repeat 0px 80px;
 }
 /*Definições do Título Google Glass no Header*/
 header#cabecalho h1 {
@@ -156,7 +156,21 @@ footer#rodape {
 footer#rodape p {
     text-align: center;
 }
-footer#rodape a {
+footer#rodape > a {
     color: #606060;
     text-decoration:none;
+    
+}
+h4 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+    font-style: italic;
+    color: #888888;
+    font-size: 15px;
+    text-align: center;
+}
+h5 {
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #888888;
+    font-size: 10px;
+    text-align: center;
 }
