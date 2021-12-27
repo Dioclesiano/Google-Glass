@@ -153,20 +153,13 @@ footer#rodape {
     clear: both;
     border-top: 1px solid #606060;
 }
-footer#rodape p {
+p#links {
     text-align: center;
 }
-footer#rodape > a {
-    color: #606060;
-    text-decoration:none;
+footer a {
+    text-decoration: none;
+    color: #474343;
     
-}
-h4 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
-    font-style: italic;
-    color: #888888;
-    font-size: 15px;
-    text-align: center;
 }
 h5 {
     font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
