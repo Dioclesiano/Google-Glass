@@ -177,3 +177,25 @@ table#tabela td {
     border: 1px solid #606060;
     padding: 15px;
 }
+table#tabela td.colunaEsquerda {
+    background-color: #606060;
+    color: #ffffff;
+    vertical-align: top;
+    font-weight: bolder;
+    text-align: right;
+}
+table#tabela td.colunaDireita {
+    background-color:#cecece;
+}
+caption {
+    color: #888888;
+    font-size: 14pt;
+    font-weight: bolder;
+}
+span {
+    display: block;
+    float: right;
+    color: #888888;
+    font-size: 8pt;
+    margin-top: 10px;
+}
