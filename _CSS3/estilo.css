@@ -143,7 +143,7 @@ header#cabecalho h2 {
     margin-top: 0px;
 }
 /*FORMATAÇÕES DOS CONTEÚDOS*/
-/*Definições da Setion(o lado esquerdo da página)*/
+/*Definições da Section(o lado esquerdo e direito da página)*/
 section#corpo {
     display: block;
     width: 500px;
@@ -151,6 +151,7 @@ section#corpo {
     border-right: 1px solid #606060;
     padding: 20px 30px 20px 20px;
 }
+/*Definições Aside(o lado direito da página)*/
 aside#lateral {
     display: block;
     width: 500px;
@@ -222,6 +223,7 @@ span#data {
     font-size: 8pt;
     margin-top: 10px;
 }
+
 article#noticiaPrincipal h2{
     background-color: #dddddd;
     font-size: 20px;
